@@ -1,0 +1,22 @@
+{
+  "name": "safu-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joaquin Diaz (Joadr)",
+  "license": "MIT",
+  "scripts": {
+    "start-ganache": "ganache-cli --deterministic"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.12.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.2.1",
+    "@truffle/hdwallet-provider": "^1.0.26",
+    "truffle": "^5.1.51"
+  }
+}

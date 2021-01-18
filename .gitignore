@@ -1,0 +1,11 @@
+node_modules/
+.secret
+.openzeppelin/.session
+.openzeppelin/dev-*
+.history
+.env
+build
+.vscode
+yarn.lock
+yarn-error.log
+.openzeppelin
