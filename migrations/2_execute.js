@@ -16,6 +16,8 @@ module.exports = async function (deployer, network, accounts) {
   // await instance.addRecipent(accounts[1])
   console.log('adding recipent 2', "0x4cD7175369F66f17844Aad08Ec6bC2f93fe40f5c")
   await instance.addRecipent("0x4cD7175369F66f17844Aad08Ec6bC2f93fe40f5c")
+  console.log('adding recipent 2 again', "0x4cD7175369F66f17844Aad08Ec6bC2f93fe40f5c")
+  await instance.addRecipent("0x4cD7175369F66f17844Aad08Ec6bC2f93fe40f5c")
   console.log('adding recipent 3', '0xE8e64D45b96a5903B22aF99697fa38e55f7993dB')
   await instance.addRecipent('0xE8e64D45b96a5903B22aF99697fa38e55f7993dB')
   console.log('calling transfer')
