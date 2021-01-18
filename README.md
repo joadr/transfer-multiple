@@ -3,6 +3,7 @@ This project was built for testing purposes.
 
 ## Quickstart
 ### Migrations
+Modify the migration `1_deploy.js` and uncomment line 4 if you wish to deploy the contract.
 Modify the migration `2_execute.js` with your own addresses you want to test.
 
 ### Environment variables
